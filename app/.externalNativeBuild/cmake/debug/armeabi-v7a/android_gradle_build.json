@@ -1,0 +1,181 @@
+
+{
+	"buildFiles" : [ "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"ffmpeg-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ffmpeg",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi-v7a/libffmpeg.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"gf_lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "gf_lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target gf_lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dgf_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/stabilization/GuassFilter.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libgf_lib.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"he_lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "he_lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target he_lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dhe_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/stabilization/HomoExtractorKlt.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhe_lib.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"libopencv_java3-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_java3",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"ma_lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ma_lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target ma_lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dma_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/match.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libma_lib.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"media-handle-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "media-handle",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target media-handle",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot -Dmedia_handle_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/ffmpeg/cmdutils.c",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot -Dmedia_handle_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/ffmpeg/ffmpeg.c",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot -Dmedia_handle_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/ffmpeg/ffmpeg_filter.c",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot -Dmedia_handle_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/ffmpeg/ffmpeg_opt.c",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmedia-handle.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"ms_lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ms_lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target ms_lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dms_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/stabilization/MySemaphore.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libms_lib.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"native_opencv-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native_opencv",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native_opencv",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dnative_opencv_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/native-opencv.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative_opencv.so",
+			"toolchain" : "17713992041406909399"
+		},
+		"sp_lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "sp_lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target sp_lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/easy/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/easy/android-ndk-r15c/sysroot  -Dsp_lib_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/cpp/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/easy/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/easy/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/src/main/cpp/stabilization/StableProcessor.cpp",
+					"workingDirectory" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsp_lib.so",
+			"toolchain" : "17713992041406909399"
+		}
+	},
+	"toolchains" : 
+	{
+		"17713992041406909399" : 
+		{
+			"cCompilerExecutable" : "/home/easy/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/easy/android-ndk-r15c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

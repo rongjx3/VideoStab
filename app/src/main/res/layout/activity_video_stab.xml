@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.frank.ffmpeg.activity.VideoHandleActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_video_transform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/sv_player"
+        android:layout_marginLeft="10dp"
+        android:text="一键稳定"/>
+
+    <Button
+        android:id="@+id/btn_play_ori_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/sv_player"
+        android:layout_toRightOf="@id/btn_video_transform"
+        android:layout_marginLeft="10dp"
+        android:text="原视频播放"/>
+
+    <Button
+        android:id="@+id/btn_play_stab_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/sv_player"
+        android:layout_toRightOf="@id/btn_play_ori_video"
+        android:layout_marginLeft="10dp"
+        android:text="稳定视频播放"/>
+
+    <SurfaceView
+        android:id="@+id/sv_player"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/btn_video_transform"
+        android:text="使用说明：在本地的SD卡根目录下命名一个“in.mp4”的视频文件，然后点击一键稳定即可对其进行稳定" />
+
+
+</RelativeLayout>

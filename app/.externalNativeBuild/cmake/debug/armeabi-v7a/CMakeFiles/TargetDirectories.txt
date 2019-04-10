@@ -1,0 +1,9 @@
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/native_opencv.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/ma_lib.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/media-handle.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/he_lib.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/gf_lib.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/ms_lib.dir
+/home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/sp_lib.dir

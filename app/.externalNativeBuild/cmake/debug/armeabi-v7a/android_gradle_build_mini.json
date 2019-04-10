@@ -1,0 +1,62 @@
+{
+  "buildFiles": [
+    "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "he_lib-Debug-armeabi-v7a": {
+      "artifactName": "he_lib",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target he_lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhe_lib.so"
+    },
+    "libopencv_java3-Debug-armeabi-v7a": {
+      "artifactName": "libopencv_java3",
+      "abi": "armeabi-v7a",
+      "output": "../../../../libs/armeabi-v7a/libopencv_java3.so"
+    },
+    "ma_lib-Debug-armeabi-v7a": {
+      "artifactName": "ma_lib",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target ma_lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libma_lib.so"
+    },
+    "ms_lib-Debug-armeabi-v7a": {
+      "artifactName": "ms_lib",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target ms_lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libms_lib.so"
+    },
+    "ffmpeg-Debug-armeabi-v7a": {
+      "artifactName": "ffmpeg",
+      "abi": "armeabi-v7a",
+      "output": "../../../../libs/armeabi-v7a/libffmpeg.so"
+    },
+    "gf_lib-Debug-armeabi-v7a": {
+      "artifactName": "gf_lib",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target gf_lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libgf_lib.so"
+    },
+    "media-handle-Debug-armeabi-v7a": {
+      "artifactName": "media-handle",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target media-handle",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmedia-handle.so"
+    },
+    "native_opencv-Debug-armeabi-v7a": {
+      "artifactName": "native_opencv",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native_opencv",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative_opencv.so"
+    },
+    "sp_lib-Debug-armeabi-v7a": {
+      "artifactName": "sp_lib",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/easy/android/FF5-cut/FFmpegAndroid-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target sp_lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/easy/android/FF5-cut/FFmpegAndroid-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsp_lib.so"
+    }
+  }
+}

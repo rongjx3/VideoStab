@@ -1,0 +1,4 @@
+# ninja log v5
+1	165	0	CMakeFiles/live.dir/src/main/cpp/queue.c.o	6bd3134e18cb95fb
+1	203	0	CMakeFiles/live.dir/src/main/cpp/live.c.o	126834402559dc80
+203	252	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/liblive.so	3f95a49d399b0984
